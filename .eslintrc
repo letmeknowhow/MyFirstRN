@@ -1,0 +1,59 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  // EcmaScript属性
+  // 参考 http://eslint.org/docs/user-guide/configuring
+  "ecmaFeatures": {
+    "classes": true,
+    "jsx": true
+  },
+  // 环境
+  "env": {
+    "browser": false,
+    "node": true,
+    // 启用除modules以外的所有es6属性
+    "es6": true
+  },
+  // 插件
+  "plugins": [
+    "react-native"
+  ],
+  // 规则
+  "rules": {
+    // 数组或对象末尾逗号不强制
+    "comma-dangle": 0,
+    // 注释前强制空1格 例:  // comment
+    "spaced-comment": 0,
+    // 允许块前空格 例如function() {}
+    "padded-blocks": 0,
+    // 允许使用匿名函数
+    "func-names": 0,
+    // 允许使用 console.log
+    "no-console": 0,
+    // 允许花括号内两侧不空格
+    "object-curly-spacing": 0,
+    // 未使的变量,只警告
+    "no-unused-vars": 1,
+    // 未使的变量,只警告
+    "no-use-before-define": 2,
+    // 不强制最后一行必须是空行
+    "eol-last": 0,
+    // 不强制优先使用const
+    "prefer-const": 0,
+    // 不进行排序
+    "react/sort-comp": 0,
+    // 不强制结尾空白
+    "no-trailing-spaces": 0,
+    // 允许else块中return
+    "no-else-return": 0,
+    // 不强制首字字母大写的函数只能出现在构造函数中
+    "new-cap": 0,
+    "react/jsx-boolean-value": 0,
+    // 不强制 在jsx中写多行属性时尾'>'与'<'对齐
+    "react/jsx-closing-bracket-location": 0,
+    // 不强制jsx看属性换行时限制12空格
+    "react/jsx-indent-props": 0,
+    // 允许一页中写多个组件
+    "react/no-multi-comp": 0
+  }
+}

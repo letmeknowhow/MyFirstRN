@@ -1,0 +1,40 @@
+{
+  "name": "WealthApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "key-mirror": "^1.0.1",
+    "lodash": "^3.10.1",
+    "react-native": "^0.17.0",
+    "react-native-animatable": "^0.3.1",
+    "react-native-code-push": "^1.5.3-beta",
+    "react-native-collapsible": "^0.5.4",
+    "react-native-gesture-password": "^0.1.3",
+    "react-native-gifted-spinner": "^0.0.3",
+    "react-native-picker-android": "^0.3.3",
+    "react-native-router-redux": "^0.2.1",
+    "react-native-scrollable-tab-view": "^0.3.3",
+    "react-native-simple-store": "^0.1.0",
+    "react-native-tabs": "github:malkomalko/react-native-tabs",
+    "react-native-viewpager": "^0.1.4",
+    "react-redux": "^3.1.0",
+    "react-timer-mixin": "^0.13.3",
+    "redux": "^3.0.5",
+    "redux-thunk": "^1.0.0",
+    "regenerator": "^0.8.42"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.3.13",
+    "body-parser": "^1.14.2",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.0.0",
+    "eslint-plugin-react": "^3.11.3",
+    "eslint-plugin-react-native": "^0.3.1",
+    "express": "^4.13.3",
+    "react-native-picker-android": "^0.3.3"
+  }
+}
