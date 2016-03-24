@@ -5,12 +5,6 @@
 - EcmaScript 2015 (ES6)
 - eslint, babel-eslint 代码质量及代码风格
 
-# 财富App`H5原型`
-
-H5原型展示了财富app的总体的功能模块划分及动画交互,我们开发务必要真实还原原型设计
-
-<a href='http://xgj908.axshare.com/%E8%B4%A2%E5%AF%8Capp.html' target='_blank'>http://xgj908.axshare.com/%E8%B4%A2%E5%AF%8Capp.html</a>
-
 #### ReactNative第三方模块
 
 | 模块   |      说明
@@ -31,7 +25,7 @@ H5原型展示了财富app的总体的功能模块划分及动画交互,我们�
 
 # 更多第三方模块
 
-https://react.parts/native
+https://js.coach/react-native
 
 
 # 目录节构
@@ -76,13 +70,7 @@ https://react.parts/native
 └── package.json
 
 ```
-# 如何开始
 
-```bash
-git clone http://192.168.0.8/front-end/wealth-app.git
-
-npm install
-```
 
 # 环境配置
 
